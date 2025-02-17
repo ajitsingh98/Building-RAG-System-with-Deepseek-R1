@@ -10,8 +10,6 @@
 - **Memory Management**: Easily clear vector store and retrievers to reset the system.
 - **Streamlit Interface**: A user-friendly web application for seamless interaction.
 
----
-
 ## Problem Statement
 
 The project addresses the challenge of interacting with and querying PDF documents efficiently. It leverages the Retrieval-Augmented Generation (RAG) approach to provide users with accurate responses to questions related to uploaded documents. Users can upload multiple PDFs and receive tailored, relevant answers to their inquiries.
@@ -19,6 +17,8 @@ The project addresses the challenge of interacting with and querying PDF documen
 ## Proposed Solution
 
 The solution involves a web-based application where users can upload PDFs, and the system uses embeddings to extract document content for efficient and accurate question-answering. The application allows customization of retrieval settings, such as adjusting the number of retrieved results or the similarity threshold for optimal performance.
+
+![img](/asset/rag_local.jpeg)
 
 ## Major Tech Stack Explanation
 
