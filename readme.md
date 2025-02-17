@@ -121,8 +121,6 @@ streamlit run app.py
 └── README.md               # Project documentation
 ```
 
----
-
 ## Configuration
 
 You can modify the following parameters in `main.py` to suit your needs:
@@ -140,8 +138,6 @@ You can modify the following parameters in `main.py` to suit your needs:
 3. **Retrieval Settings**:
    - Adjust `k` (number of retrieved results) and `score_threshold` in `ask()` to control the quality of retrieval.
 
----
-
 ## Requirements
 
 - **Python**: 3.8+
@@ -150,8 +146,6 @@ You can modify the following parameters in `main.py` to suit your needs:
 - **LangChain**: Core framework for RAG.
 - **PyPDF**: For PDF document processing.
 - **ChromaDB**: Vector store for document embeddings.
-
----
 
 ## Troubleshooting
 
@@ -169,13 +163,10 @@ You can modify the following parameters in `main.py` to suit your needs:
 3. **Streamlit Not Launching**:
    - Verify dependencies are installed correctly using `pip install -r requirements.txt`.
 
----
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
 
 ## Acknowledgments
 
